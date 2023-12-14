@@ -8,16 +8,16 @@ public class Main {
 
 
         if (a % 3 ==0 && a%2 !=0 ){
-            System.out.println("True");
+            System.out.println("true");
         }
         else{
-            System.out.println("False");
+            System.out.println("false");
         }
         if (a%2 !=0 &&a % 5 == 0){
-            System.out.println("True");
+            System.out.println("true");
         }
         else{
-            System.out.println("False");
+            System.out.println("false");
         }
         
 
