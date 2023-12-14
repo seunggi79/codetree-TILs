@@ -9,7 +9,7 @@ public class Main {
 
 
 
-        System.out.print(n+a + " " + (n+a)/2);
+        System.out.print((int)(n+a) + " " + (n+a)/2);
 
 
     }
