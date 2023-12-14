@@ -7,6 +7,6 @@ public class Main {
         int a = b;
         int b = temp;
         System.out.println(a);
-        System.out.println(a);
+        System.out.println(b);
     }
 }
