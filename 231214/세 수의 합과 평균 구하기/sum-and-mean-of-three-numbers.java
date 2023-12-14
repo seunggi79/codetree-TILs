@@ -9,7 +9,7 @@ public class Main {
         double c = sc.nextDouble();
 
 
-        System.out.print((int)(n+a+c) + "\n" + (n+c+a)/3);
+        System.out.print((int)(n+a+c) + "\n" + (int)(n+c+a)/3);
 
 
     }
