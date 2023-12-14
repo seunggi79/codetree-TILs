@@ -10,7 +10,7 @@ public class Main {
         if (a % 3 ==0 && a%2 !=0 ){
             System.out.println("true");
         }
-        else if (a%2 !=0 &&a % 5 == 0){
+        else if (a%2 ==0 &&a % 5 == 0){
             System.out.println("true");
 
         }
