@@ -7,12 +7,19 @@ public class Main {
         int a = sc.nextInt();
 
 
-        if (a % 3 ==0 && a%2 !=0 || a%2 !=0 &&a % 5 == 0){
-            System.out.println("true");
+        if (a % 3 ==0 && a%2 !=0 ){
+            System.out.println("True");
         }
         else{
-            System.out.println("false");
+            System.out.println("False");
         }
+        if (a%2 !=0 &&a % 5 == 0){
+            System.out.println("True");
+        }
+        else{
+            System.out.println("False");
+        }
+        
 
     }
 }
