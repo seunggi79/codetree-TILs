@@ -6,13 +6,19 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int m = sc.nextInt();
-        
+
         if (n % 2 == 0){
             System.out.println("even");
+        }
+        else{
+            System.out.println("odd");
         }
         if (m % 2 == 0){
             System.out.println("odd");
         }
-        
+        else{
+            System.out.println("odd");
+        }
+
     }
 }
