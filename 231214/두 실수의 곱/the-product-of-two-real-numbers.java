@@ -4,6 +4,6 @@ public class Main {
         double a = 5.26;
         double b = 8.27;
         double c = a * b;
-        System.out.print("43.500", c);
+        System.out.print("43.500");
     }
 }
