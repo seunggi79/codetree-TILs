@@ -5,6 +5,7 @@ public class Main {
         // 변수 선언 및 입력
         Scanner sc = new Scanner(System.in);
         sc.useDelimiter("-");
+        int n = sc.nextInt();
         int h = sc.nextInt();
         int k = sc.nextInt();
         // 출력
