@@ -8,17 +8,17 @@ public class Main {
         int m = sc.nextInt();
 
         if (n < m){
-            System.out.println(1);
+            System.out.print(1+" ");
         }
         else{
-            System.out.println(0);
+            System.out.print(0+" ");
         }
 
         if (n == m){
-            System.out.println(1);
+            System.out.print(1);
         }
         else{
-            System.out.println(0);
+            System.out.print(0);
         }
     }
 }
