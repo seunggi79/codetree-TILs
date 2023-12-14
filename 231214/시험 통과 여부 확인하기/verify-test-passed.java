@@ -9,7 +9,7 @@ public class Main {
 
 
 
-        if (n > 80){
+        if (n >= 80){
             System.out.println("pass");
         }
         else{
