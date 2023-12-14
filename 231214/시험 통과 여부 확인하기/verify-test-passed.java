@@ -9,7 +9,6 @@ public class Main {
 
 
 
-        System.out.println((n*n));
         if (n > 80){
             System.out.println("pass");
         }
