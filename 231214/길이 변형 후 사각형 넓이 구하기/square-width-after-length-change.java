@@ -6,11 +6,12 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int a = sc.nextInt();
-
         
-        System.out.println(n + a);
-        System.out.println(n - a);
-        System.out.println(n / a);
-        System.out.println(n % a);
+        
+
+        System.out.println(n + 8);
+        System.out.println(a * 3);
+        System.out.println((n+8)  * (a*3));
+        
     }
 }
