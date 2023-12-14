@@ -12,8 +12,8 @@ public class Main {
 
         System.out.println(a>b?1:0);
         System.out.println(a>c?1:0);
-        System.out.println(b>d?1:0);
-        System.out.println(b>e?1:0);
+        System.out.println(a>d?1:0);
+        System.out.println(a>e?1:0);
 
     }
 }
