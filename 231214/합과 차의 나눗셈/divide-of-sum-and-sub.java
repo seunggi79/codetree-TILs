@@ -9,7 +9,7 @@ public class Main {
 
 
 
-        System.out.print((n+a)/(n-a));
+        System.out.printf("%.2f", (n+a)/(n-a));
 
 
     }
