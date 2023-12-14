@@ -11,7 +11,7 @@ public class Main {
             System.out.println("true");
         }
         else if (a%2 !=0 &&a % 5 == 0){
-                        System.out.println("true");
+            System.out.println("true");
 
         }
         else{
