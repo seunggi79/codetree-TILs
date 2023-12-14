@@ -10,6 +10,6 @@ public class Main {
         int k = sc.nextInt();
 
         // 출력
-        System.out.println(h+ "-" + m+"-"+k);
+        System.out.println(k+ "." + h+"."+m);
     }
 }
