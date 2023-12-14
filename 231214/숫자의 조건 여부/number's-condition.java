@@ -9,7 +9,6 @@ public class Main {
 
 
 
-        System.out.println((n*n));
         if (n >= 113){
             System.out.println(1);
         }
