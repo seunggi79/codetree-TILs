@@ -10,7 +10,7 @@ public class Main {
 
 
         System.out.println((a*10000) / (n*n));
-        if (n >= 25){
+        if ((a*10000) / (n*n) >= 25){
             System.out.println("Obesity");
         }
 
