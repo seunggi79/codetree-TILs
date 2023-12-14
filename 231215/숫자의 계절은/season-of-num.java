@@ -10,7 +10,7 @@ public class Main {
         if (a >=3 || a<=5){
             System.out.println("Spring");
         } else if (a >= 6 || a<=8) {
-            System.out.println("summer");
+            System.out.println("Summer");
             
         } else if (a >= 9 || a<= 11) {
             System.out.println("Fall");
