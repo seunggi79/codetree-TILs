@@ -10,7 +10,7 @@ public class Main {
 
 
         System.out.println(n+87);
-        System.out.println(a / 10);
+        System.out.println(a % 10);
 
 
     }
