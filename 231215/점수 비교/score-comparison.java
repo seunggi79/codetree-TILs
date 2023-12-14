@@ -9,9 +9,12 @@ public class Main {
         int c = sc.nextInt();
         int d = sc.nextInt();
         
-        int k = a>b && c > d?1:0;
+        if(a>b && c > d){
+            System.out.println(1);
 
-        System.out.println(k);
-
+        }
+        else{
+            System.out.println(0);
+        }
     }
 }
