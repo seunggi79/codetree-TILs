@@ -8,10 +8,10 @@ public class Main {
         int a = sc.nextInt();
 
         if ((a % 4 ==0 && a % 100 ==0 && a % 400 == 0)||(a % 4 == 0)){
-            System.out.println("True");
+            System.out.println("true");
         }
         else{
-            System.out.println("False");
+            System.out.println("false");
         }
     }
 }
