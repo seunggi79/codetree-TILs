@@ -8,7 +8,7 @@ public class Main {
         int n = sc.nextInt();
 //        int m = sc.nextInt();
 
-        for (int i =n; i<=1; i--){
+        for (int i =n; i>=1; i--){
 //            if(i % 2 != 0){
 //            }
             System.out.print(i+" ");
