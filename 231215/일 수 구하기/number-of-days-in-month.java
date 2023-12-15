@@ -12,12 +12,15 @@ public class Main {
                 System.out.println(28);
             }
             else{
+                if(a >= 8){
+                System.out.println(31);
+                }
                 System.out.println(30);
             }
         }
         else{
 
-            if(a >= 8&&a%2==0){
+            if(a >= 8){
                 System.out.println(30);
             }
             else{
