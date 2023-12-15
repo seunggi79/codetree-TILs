@@ -5,13 +5,13 @@ public class Main {
         // 변수 선언 및 입력
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
-        String a2 = sc.next();
+        char a2 = sc.next().charAt(0);
         int b = sc.nextInt();
-        String b2 = sc.next();
+        char b2 = sc.next().charAt(0);
 
 
-        if (a>=19 || b>= 19){
-            if( "M".equals(a2) || "M".equals(b2) ){
+        if ((a>=19 || b>= 19) && (a2 == 'M' || b2 == 'M')){
+            if( a2 == 'M' || b2 == 'M' ){
                 System.out.println(1);
             }
             else{
