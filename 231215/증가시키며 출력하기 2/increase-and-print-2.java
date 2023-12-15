@@ -10,7 +10,7 @@ public class Main {
         int i = 10;
         
         while (i <= 26){
-            System.out.println(i);
+            System.out.print(i+" ");
             i++;
         }
 
