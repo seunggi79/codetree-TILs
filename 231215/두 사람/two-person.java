@@ -11,7 +11,7 @@ public class Main {
 
 
         if (a>=19 || b>= 19){
-            if( a2.equals('M') || b2.equals('M') ){
+            if( "M".equals(a2) || "M".equals(b2) ){
                 System.out.println(1);
             }
             else{
