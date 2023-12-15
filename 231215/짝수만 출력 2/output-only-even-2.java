@@ -7,14 +7,14 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int m = sc.nextInt();
-        int i = 1;
-        while (n >= i){
+        
+        while (n >= m){
             if (n % 2 == 0){
                 System.out.print(n + " ");
 
             }
 
-            i-=2;
+            n-=2;
         }
         
 
