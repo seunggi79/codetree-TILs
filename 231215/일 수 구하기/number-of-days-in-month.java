@@ -17,7 +17,7 @@ public class Main {
         }
         else{
 
-            if(a >= 8){
+            if(a >= 8&&a%2==0){
                 System.out.println(30);
             }
             else{
