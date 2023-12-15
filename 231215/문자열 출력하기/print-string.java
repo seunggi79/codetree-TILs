@@ -7,11 +7,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         String n = sc.next();
         for(int i = 0; i<6; i++){
-            System.out.println(n);
+            System.out.println("LeebrosCode");
         }
-
-
-
-
     }
 }
