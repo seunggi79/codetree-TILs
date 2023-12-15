@@ -6,7 +6,7 @@ public class Main {
         // 변수 선언 및 입력
         Scanner sc = new Scanner(System.in);
         String n = sc.next();
-        for(int i = 0; i<6; i++){
+        for(int i = 0; i<n; i++){
             System.out.println("LeebrosCode");
         }
     }
