@@ -7,9 +7,12 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int m = sc.nextInt();
-        double k = (double)n / m;
-        System.out.printf("%.20f", k);
-
+        int k = n%m;
+        System.out.print(n/m+".");
+        for(int i = 1; i <= 20; i++){
+            System.out.print(k * 10 / m);
+            k = k * 10 % m;
+        }
 
 
     }
