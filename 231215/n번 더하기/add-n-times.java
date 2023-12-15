@@ -8,9 +8,9 @@ public class Main {
         int n = sc.nextInt();
         int m = sc.nextInt();
         int k = n;
-        for(int i =0; i<=k; i++){
-            System.out.println(n+m);
-            n += m;
+        for(int i =0; i<=n; i++){
+            System.out.println(k+m);
+            k += m;
         }
 
 
