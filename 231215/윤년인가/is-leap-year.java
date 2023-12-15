@@ -8,18 +8,18 @@ public class Main {
         int a = sc.nextInt();
 
         if(a % 4 == 0){
-            
+
             if(a % 100 == 0){
                 if (a % 400 == 0) {
-                    System.out.println("True");
+                    System.out.println("true");
                 }
                 else{
-                    System.out.println("False");
+                    System.out.println("false");
                 }
             }
         }
         else{
-            System.out.println("False");
+            System.out.println("false");
         }
     }
 }
