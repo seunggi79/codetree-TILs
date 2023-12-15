@@ -8,7 +8,7 @@ public class Main {
         int n = sc.nextInt();
 //        int m = sc.nextInt();
         int i = 3;
-        while (i <= 27){
+        while (i <= n){
             System.out.print(i + " ");
             i+=3;
         }
