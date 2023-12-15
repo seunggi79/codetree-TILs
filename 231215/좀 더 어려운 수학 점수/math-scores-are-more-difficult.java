@@ -10,18 +10,23 @@ public class Main {
         int b2 = sc.nextInt();
 
 
-        if ( a>b){
+        if (a>b){
             System.out.println('A');
-        } else{
-            System.out.println('B');
+            
         }
-        if (a == b && a2 > b2) {
-            System.out.println('A');
-
+        else if (a == b){
+            if (a2 > b2) {
+                System.out.println('A');
+            }
+            else{
+                System.out.println('B');
+            }
         }
         else{
             System.out.println('B');
         }
+        
+        
 
 
     }
