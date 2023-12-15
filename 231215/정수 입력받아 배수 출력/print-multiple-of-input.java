@@ -8,7 +8,7 @@ public class Main {
         int n = sc.nextInt();
 
         for (int i =n; i<=n*5; i+=2){
-            System.out.println(i+" ");
+            System.out.print(i+" ");
         }
 
 
