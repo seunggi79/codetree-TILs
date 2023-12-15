@@ -12,9 +12,9 @@ public class Main {
 //            if (i % 2 == 0){
 
 //            }
-            System.out.print(i + " ");
+            System.out.print(n + " ");
 
-            i-=1;
+            n-=1;
         }
 
 
