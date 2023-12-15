@@ -13,9 +13,12 @@ public class Main {
             }
             else{
                 if(a >= 8){
-                System.out.println(31);
+                    System.out.println(31);
                 }
-                System.out.println(30);
+                else{
+                    System.out.println(30);
+
+                }
             }
         }
         else{
