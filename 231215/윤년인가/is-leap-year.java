@@ -7,16 +7,8 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
 
-        if(a % 4 == 0){
-
-            if(a % 100 == 0){
-                if (a % 400 == 0) {
-                    System.out.println("true");
-                }
-                else{
-                    System.out.println("false");
-                }
-            }
+        if((a % 4 == 0) && (a % 100 == 0) && (a % 400 == 0) || (a % 4 == 0)){
+            System.out.println("true");
         }
         else{
             System.out.println("false");
