@@ -6,17 +6,16 @@ public class Main {
         // 변수 선언 및 입력
         Scanner sc = new Scanner(System.in);
         int cnt = 0;
-//      
+//
         int sum = 0;
         while(true){
             int n = sc.nextInt();
-            
-            if (n < 29 && n >20 ){
-                sum += n;
-                cnt += 1;
+            sum += n;
+            cnt += 1;
+            if (n > 29 || n < 20 ){
                 break;
             }
         }
-        System.out.printf("%.2f",(float)sum/cnt);
+        System.out.printf("%.1f",(float)sum/cnt);
     }
 }
