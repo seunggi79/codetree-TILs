@@ -10,15 +10,15 @@ public class Main {
         while(true){
             int n = sc.nextInt();
 
-
             if(n == 1){
                 System.out.println("John");
-                break;
+                
             } else if (n == 2) {
                 System.out.println("Tom");
             }
             else if(n == 3){
                 System.out.println("Paul");
+            
             } else if (n == 4) {
                 System.out.println("Sam"); 
             }
