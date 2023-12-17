@@ -10,10 +10,10 @@ public class Main {
 
         for (float i = 1; i <=n; i++){
 
-            if(Math.round(i / 10) % 3 == 0 && i >10){
+            if(Math.round(i / 10) % 3 == 0 && i >10&& i < 100){
                 System.out.print(0 + " ");
 
-            } else if (Math.round(i % 10) % 3 == 0 && i >10) {
+            } else if (Math.round(i % 10) % 3 == 0 && i >10 && i < 100) {
                 System.out.print(0 + " ");
                 
             } else if (i % 3 == 0) {
