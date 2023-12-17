@@ -8,15 +8,15 @@ public class Main {
         int n = sc.nextInt();
         int m = sc.nextInt();
 
-        for (int i = n; i<=m; i++){
+        for (int i = n; i <=m;){
             System.out.print(i + " ");
             if (i % 2 != 0){
                 i *= 2;
             }else {
                 i += 3;
             }
-            
-            
+
+
 
         }
 
