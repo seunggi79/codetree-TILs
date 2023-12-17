@@ -10,10 +10,10 @@ public class Main {
         int sum = 0;
         while(true){
             int n = sc.nextInt();
-            sum += n;
-            cnt += 1;
+            
             if (n > 29 && n <20 ){
-                
+                sum += n;
+                cnt += 1;
                 break;
             }
         }
