@@ -20,8 +20,7 @@ public class Main {
             else if(n == 3){
                 System.out.println("Paul");
             } else if (n == 4) {
-                System.out.println("Sam");
-                
+                System.out.println("Sam"); 
             }
             else{
                 System.out.println("Vacancy");
