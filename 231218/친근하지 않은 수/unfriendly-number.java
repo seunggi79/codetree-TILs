@@ -16,7 +16,7 @@ public class Main {
             }
         }
 
-        System.out.print(cnt);
+        System.out.print(n-cnt);
 
     }
 }
