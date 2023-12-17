@@ -1,29 +1,18 @@
 import java.util.Scanner;
 
 public class Main {
-    public static void main (String args[]) {
-
-        // 변수 선언 및 입력
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+
         int n = sc.nextInt();
 
-
-        for (float i = 1; i <=n; i++){
-
-            if(Math.round(i / 10) % 3 == 0 && i >10&& i < 100){
+        for (int i = 1; i <= n; i++) {
+            if (i % 3 == 0 || i % 10 == 3 || i % 10 == 6 || i % 10 == 9 
+                || i / 10 == 3 || i / 10 == 6 || i / 10 == 9) {
                 System.out.print(0 + " ");
-
-            } else if (Math.round(i % 10) % 3 == 0 && i >10 && i < 100) {
-                System.out.print(0 + " ");
-                
-            } else if (i % 3 == 0) {
-                System.out.print(0 + " ");
-
-            } else{
-                System.out.printf("%.0f ", i);
-
+            } else {
+                System.out.print(i + " ");
             }
         }
-
     }
 }
