@@ -5,16 +5,16 @@ public class Main {
 
         // 변수 선언 및 입력
         Scanner sc = new Scanner(System.in);
-        int sum =1;
+        int sum = 1;
         int n = sc.nextInt();
 //        int m = sc.nextInt();
         for (int i = 1;i<=10;i++){
             sum *= i;
-            if (n >= sum){
+            if ( sum>= n){
                 sum = i;
                 break;
             }
-            
+
         }
 
         System.out.println(sum);
