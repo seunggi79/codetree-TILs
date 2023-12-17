@@ -11,7 +11,7 @@ public class Main {
         if(n > 0){
             for (int i =0; i < m; i++){
 
-                System.out.print(m);
+                System.out.print(n);
             }
         }else{
             System.out.println(0);
