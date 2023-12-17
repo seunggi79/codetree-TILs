@@ -9,7 +9,7 @@ public class Main {
         int n = sc.nextInt();
 //        int m = sc.nextInt();
         for (int i = 1;i<=100;i++){
-            if (i == n){
+            if (i >=n){
                 break;
             }
             sum += i;
