@@ -11,7 +11,7 @@ public class Main {
         for (int i = 1;i<=100;i++){
             sum += i;
             if (sum >=n){
-                sum = i
+                sum = i;
                 break;
             }
             
