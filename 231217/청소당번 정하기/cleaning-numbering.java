@@ -12,15 +12,17 @@ public class Main {
         int cnt7 = 0;
         for (int i = 1; i <=n; i++){
 
-            if(i % 2 == 0){
-                cnt3 += 1;
-            }
-            if(n % 3 ==0 ){
-                cnt5 += 1;
-            }
             if(n% 12 == 0){
                 cnt7 += 1;
             }
+            else if(n % 3 ==0 ){
+                cnt5 += 1;
+            }
+            else if(i % 2 == 0){
+                cnt3 += 1;
+            }
+            
+            
 
         }
         System.out.print(cnt3+" ");
