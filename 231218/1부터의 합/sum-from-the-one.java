@@ -9,10 +9,11 @@ public class Main {
         int n = sc.nextInt();
 //        int m = sc.nextInt();
         for (int i = 1;i<=100;i++){
+            sum += i;
             if (i >=n){
                 break;
             }
-            sum += i;
+            
         }
 
         System.out.println(sum);
