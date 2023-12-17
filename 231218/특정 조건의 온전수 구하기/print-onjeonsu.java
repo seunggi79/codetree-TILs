@@ -12,11 +12,10 @@ public class Main {
         for (int i = 1; i <= n; i++) {
             if (i % 2 == 0) {
                 continue;
-                
-
+            
             }
             else{
-                if ((i < 10 && i == 5) || (i < 100 && i % 10 == 5) || (i >= 100 && i % 100 == 5)) {
+                if ((i < 10 && i == 5) || ( i>=10 &&i < 100 && i % 10 == 5) || (i >= 100 && i % 100 == 5)) {
                     continue;
                 }
                 else {
