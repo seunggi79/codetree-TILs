@@ -11,7 +11,7 @@ public class Main {
         while(true){
             int n = sc.nextInt();
             
-            if (n > 29 && n <20 ){
+            if (n < 29 && n >20 ){
                 sum += n;
                 cnt += 1;
                 break;
