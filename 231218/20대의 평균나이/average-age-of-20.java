@@ -10,11 +10,12 @@ public class Main {
         int sum = 0;
         while(true){
             int n = sc.nextInt();
-            sum += n;
-            cnt += 1;
+            
             if (n > 29 || n < 20 ){
                 break;
             }
+            sum += n;
+            cnt += 1;
         }
         System.out.printf("%.2f",(float)sum/cnt);
     }
