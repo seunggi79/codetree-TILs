@@ -13,8 +13,12 @@ public class Main {
             if(Math.round(i / 10) % 3 == 0 && i >=10){
                 System.out.print(0 + " ");
 
-            } else if (Math.round(i % 10) % 3 == 0) {
+            } else if (Math.round(i % 10) % 3 == 0 i >=10) {
                 System.out.print(0 + " ");
+                
+            } else if (i % 3 == 0) {
+                System.out.print(0 + " ");
+
             } else{
                 System.out.printf("%.0f ", i);
 
