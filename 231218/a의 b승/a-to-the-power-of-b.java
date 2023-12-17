@@ -10,7 +10,7 @@ public class Main {
         int m = sc.nextInt();
         int prod =1;
         int cnt =0;
-        while(cnt <= m){
+        while(cnt < m){
             
             prod *= n;
             cnt++;
