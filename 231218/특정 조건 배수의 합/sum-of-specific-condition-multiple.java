@@ -9,13 +9,22 @@ public class Main {
         int n = sc.nextInt();
         int m = sc.nextInt();
 
-
-        for (int i = n; i <= m; i++) {
+        if(n > m){
+            for (int i = n; i <= m; i++) {
+            if( i % 5 == 0){
+                sum += i;
+            }
+        
+        }   
+        }
+        else{
+            for (int i = m; i <= n; i++) {
             if( i % 5 == 0){
                 sum += i;
             }
 
         }
+        
         System.out.println(sum);
 
 
