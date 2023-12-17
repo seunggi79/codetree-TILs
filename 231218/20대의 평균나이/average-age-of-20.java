@@ -17,6 +17,6 @@ public class Main {
                 break;
             }
         }
-        System.out.printf("%.1f",(float)sum/cnt);
+        System.out.printf("%.2f",(float)sum/cnt);
     }
 }
