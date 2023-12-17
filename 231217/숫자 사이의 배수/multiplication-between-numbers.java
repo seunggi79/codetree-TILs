@@ -16,7 +16,7 @@ public class Main {
             }
 
         }
-        float k = sum/cnt;
+        float k = (float)sum/cnt;
 
         System.out.print(sum+" ");
         System.out.printf("%.1f", k);
