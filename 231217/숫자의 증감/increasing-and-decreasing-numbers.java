@@ -14,7 +14,7 @@ public class Main {
             }
         }else{
             for (int i=m; m >= 1; i--){
-                System.out.print(m+ " ");
+                System.out.print(i+ " ");
             }
         }
 
