@@ -13,7 +13,7 @@ public class Main {
                 System.out.print(i+ " ");
             }
         }else{
-            for (int i=m; m >= 1; i--){
+            for (int i=m; i >= 1; i--){
                 System.out.print(i+ " ");
             }
         }
