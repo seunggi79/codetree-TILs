@@ -13,10 +13,10 @@ public class Main {
 
 
             if(i%2 != 0){
-                System.out.print("*");
+                System.out.print("* ");
             }else{
                 for(int j = 0; j<(2*i)-i; j++){
-                    System.out.print("*");
+                    System.out.print("* ");
                 }
             }
 
