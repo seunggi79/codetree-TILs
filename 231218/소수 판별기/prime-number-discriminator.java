@@ -16,10 +16,10 @@ public class Main {
             }
         }
         if(satisfied){
-            System.out.println('P');
+            System.out.println('C');
         }
         else {
-            System.out.println('C');
+            System.out.println('P');
         }
 
     }
