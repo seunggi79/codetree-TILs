@@ -17,10 +17,10 @@ public class Main {
             }
         }
         if(satisfied){
-            System.out.println("YES");
+            System.out.println("NO");
         }
         else {
-            System.out.println("NO");
+            System.out.println("YES");
         }
 
     }
