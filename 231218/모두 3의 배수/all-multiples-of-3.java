@@ -5,7 +5,7 @@ public class Main {
 
         // 변수 선언 및 입력
         Scanner sc = new Scanner(System.in);
-        boolean satisfied= false;
+        boolean satisfied= true;
 
         
 
@@ -13,10 +13,10 @@ public class Main {
         for (int i = 1; i<=5; i++){
             int n = sc.nextInt();
             if(n % 3 == 0){
-                satisfied = true;
+                continue;
             }
             else{
-                break;
+                satisfied = false;
             }
         }
         if(satisfied){
