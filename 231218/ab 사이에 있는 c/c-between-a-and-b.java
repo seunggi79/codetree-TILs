@@ -12,7 +12,7 @@ public class Main {
         int k = sc.nextInt();
 
         for (int i = n; i<=m; i++){
-             if(i % 7 == 0){
+             if(i % k == 0){
                  cnt += 1;
              }
         }
