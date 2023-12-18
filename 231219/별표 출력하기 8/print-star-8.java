@@ -16,7 +16,7 @@ public class Main {
                 System.out.print("*");
             }else{
                 for(int j = 0; j<(2*i)-i; j++){
-                    System.out.print("^");
+                    System.out.print("*");
                 }
             }
 
