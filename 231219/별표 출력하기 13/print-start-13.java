@@ -14,11 +14,11 @@ public class Main {
 
             if(i%2 == 0){
                 for(int j = 0; j<1+(i/2)-1; j++){
-                    System.out.print("^ ");
+                    System.out.print("* ");
                 }
             }else{
                 for(int j = 0; j<n - (i - 1) / 2; j++){
-                    System.out.print("^ ");
+                    System.out.print("* ");
                 }
             }
 
