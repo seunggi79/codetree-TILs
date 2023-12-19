@@ -13,7 +13,7 @@ public class Main {
                 cnt +=1;
                 System.out.print(cnt);
                 if(cnt == 9){
-                    cnt = 1;
+                    cnt = 0;
                 }
             }
             System.out.println();
