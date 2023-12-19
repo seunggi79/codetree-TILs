@@ -9,7 +9,10 @@ public class Main {
         int cnt =0;
         for(int i =1; i <= n; i++){
             for(int j=1; j <= n; j++){
-                System.out.print(i+" * "+j+" = "+i*j+", ");
+                if(j==n)
+                    System.out.print(i+" * "+j+" = "+i*j);
+                else
+                    System.out.print(i+" * "+j+" = "+i*j+", ");
             }
             System.out.println();
         }
