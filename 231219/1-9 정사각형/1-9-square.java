@@ -11,7 +11,7 @@ public class Main {
         for(int i =1; i <=n; i++){
             for(int j=1; j <= n; j++){
                 cnt +=1;
-                System.out.print(cnt +" ");
+                System.out.print(cnt);
                 if(cnt == 9){
                     cnt = 1;
                 }
