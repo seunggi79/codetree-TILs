@@ -12,23 +12,26 @@ public class Main {
             for(int j=1; j <2; j++){
                 System.out.print(m+" * "+i+" = "+m*i);
             }
-            System.out.print(" / ");
+            if(n != m)
+                System.out.print(" / ");
 
-            for(int j = n+1; j<m; j++){
+            for(int j = m-1; j>n; j--){
                 if (j%2==0){
                     for(int k=1; k < 2; k++){
                         System.out.print(j+" * "+i+" = "+j*i);
                     }
-                    System.out.print(" / ");
+                    if(n != m)
+                        System.out.print(" / ");
                 }
             }
 
 
-
-            for(int j=1; j < 2; j++){
-                System.out.print(n+" * "+i+" = "+n*i);
+            if(n != m){
+                for(int j=1; j < 2; j++){
+                    System.out.print(n+" * "+i+" = "+n*i);
+                }
             }
+
             System.out.println();
         }
     }
-}
