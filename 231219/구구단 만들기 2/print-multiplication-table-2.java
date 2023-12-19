@@ -8,7 +8,7 @@ public class Main {
         int n = sc.nextInt();
         int m = sc.nextInt();
 
-        for(int i =1; i <= 9; i++){
+        for(int i =2; i <= 8; i+=2){
             for(int j = m; j >=n; j--){
                 System.out.print(j+" * "+i+" = "+j*i);
                 if (j!=n)
