@@ -9,9 +9,12 @@ public class Main {
         int num = 65;
         for (int i =1; i <= n; i++){
 
-            for(int j = 1; j <=n ; j++){
+            for(int j = 1; j <=i; j++){
                 System.out.print((char)num);
                 num++;
+                if(num == 90){
+                    num = 65;
+                }
 
             }
             System.out.println();
