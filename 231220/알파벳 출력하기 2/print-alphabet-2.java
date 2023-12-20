@@ -13,7 +13,7 @@ public class Main {
             }
             for(int j = 1; j <= n -i; j++){
 
-                System.out.print((char)num);
+                System.out.print((char)num+ " ");
                 num++;
                 if(num == 90){
                     num = 65;
