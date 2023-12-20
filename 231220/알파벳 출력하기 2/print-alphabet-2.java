@@ -15,7 +15,7 @@ public class Main {
 
                 System.out.print((char)num+ " ");
                 num++;
-                if(num == 90){
+                if(num == 91){
                     num = 65;
                 }
 
