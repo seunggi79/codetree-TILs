@@ -18,7 +18,7 @@ public class Main {
             System.out.println("Perfect");
 
         }
-        else if ( sum>=3.0){
+        else if ( sum/n>=3.0){
             System.out.println("Good");
         }
         else
