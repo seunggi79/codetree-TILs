@@ -13,7 +13,7 @@ public class Main {
             sum+=arr[i];
 
         }
-        System.out.printf("%.1f\n", sum/n);
+        System.out.printf("%.1f\n", Math.ceil(sum/n));
         if(sum/n >= 4.0){
             System.out.println("Perfect");
 
