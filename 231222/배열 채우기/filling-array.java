@@ -21,7 +21,7 @@ public class Main {
         }
 
         for(int i = cnt-1; i >= 0; i--){
-            System.out.println(arr[i]);
+            System.out.print(arr[i]+" ");
         }
 
 
