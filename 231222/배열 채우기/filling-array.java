@@ -10,19 +10,20 @@ public class Main {
 
         while(true){
             arr[cnt] = sc.nextInt();
-
-
             if(arr[cnt] == 0){
                 break;
             }
-
+            if(cnt == 9){
+                cnt++;
+                break;
+            }
             cnt++;
-
         }
-
         for(int i = cnt-1; i >= 0; i--){
             System.out.print(arr[i]+" ");
         }
+
+
 
     }
 }
