@@ -8,7 +8,7 @@ public class Main {
         int n = sc.nextInt();
 
         int cnt = 0;
-        int[] arr = new int[n];
+        int[] arr = new int[10];
         for(int i =0; i<10;i++){
             arr[i] = n*(i+1);
             if(arr[i] % 5 == 0){
