@@ -12,7 +12,7 @@ public class Main {
         int cnt = 0;
         while(cnt < 10){
             arr[cnt] = sc.nextInt();
-            if(arr[cnt] % 3 ==0){
+            if(arr[cnt] % 3 ==0 && sum == 0){
                 sum = cnt;
             }
             cnt++;
