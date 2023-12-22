@@ -5,7 +5,6 @@ public class Main {
 
         // 변수 선언 및 입력
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
 
         int cnt = 0;
         int[] arr = new int[100];
