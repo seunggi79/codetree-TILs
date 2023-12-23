@@ -7,15 +7,15 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
 
-        int[] arr = new int[10];
+        int[] arr = new int[11];
 
-        for (int i =1; i<n; i++){
+        for (int i =1; i<=n; i++){
             int m = sc.nextInt();
             arr[m] += 1;
 
         }
 
-        for(int i =0; i< 10; i++){
+        for(int i =1; i<= n; i++){
             System.out.print(arr[i]+"\n");
         }
 
