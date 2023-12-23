@@ -11,12 +11,13 @@ public class Main {
 
         int sum = 0;
         while (n>1) {
-            n /= m;
             arr[n % m] += 1;
+            n /= m;
+
         }
 
         for(int i =0; i<=9; i++){
-            sum += arr[i]**arr[i];
+            sum += arr[i]*arr[i];
         }
 
         System.out.println(sum);
