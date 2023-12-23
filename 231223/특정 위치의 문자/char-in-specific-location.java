@@ -20,7 +20,11 @@ public class Main {
                 break;
             }
         }
+        if (answer ==0){
+            System.out.println("None");
+        }else{
+            System.out.println(answer);
+        }
 
-        System.out.println(answer);
     }
 }
