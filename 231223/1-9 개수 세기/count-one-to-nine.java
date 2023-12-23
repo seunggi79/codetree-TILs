@@ -15,7 +15,7 @@ public class Main {
 
         }
 
-        for(int i =1; i<= n; i++){
+        for(int i =1; i<= 10; i++){
             System.out.print(arr[i]+"\n");
         }
 
