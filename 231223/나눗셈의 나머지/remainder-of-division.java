@@ -16,7 +16,7 @@ public class Main {
         }
 
         for(int i =0; i<=9; i++){
-            sum += arr[i]*arr[i];
+            sum += arr[i]**arr[i];
         }
 
         System.out.println(sum);
