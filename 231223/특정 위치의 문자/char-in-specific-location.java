@@ -6,6 +6,7 @@ public class Main {
         // 변수 선언 및 입력
         Scanner sc = new Scanner(System.in);
         char n = sc.next().charAt(0);
+        boolean swich = false;
         char[] arr = new char[6];
         arr[0] = 'L';
         arr[1] = 'E';
@@ -17,10 +18,11 @@ public class Main {
         for(int i =0; i<=5; i++){
             if(arr[i] == n){
                 answer = i;
+                swich = true;
                 break;
             }
         }
-        if (answer ==0){
+        if (!swich){
             System.out.println("None");
         }else{
             System.out.println(answer);
