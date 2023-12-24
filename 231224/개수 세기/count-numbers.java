@@ -9,7 +9,7 @@ public class Main {
         int m = sc.nextInt();
         int cnt = 0;
         int[] arr = new int[n];
-        for(int i =0; i<10; i++){
+        for(int i =0; i<n; i++){
             arr[i] = sc.nextInt();
             if(arr[i] == m){
                 cnt += 1;
