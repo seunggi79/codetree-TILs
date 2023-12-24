@@ -37,6 +37,7 @@ public class Main {
                 for(int j = k; j<=l; j++){
                     System.out.print(arr[j-1]+" ");
                 }
+                System.out.println();
             }
         }
 
