@@ -10,7 +10,7 @@ public class Main {
         for(int i = 0; i<10; i++){
             arr[i] = sc.nextInt();
             if(arr[i] >= max){
-                max = arr[i]
+                max = arr[i];
             }
         }
         System.out.println(max);
