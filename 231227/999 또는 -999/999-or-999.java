@@ -5,8 +5,8 @@ public class Main {
 
         // 변수 선언 및 입력
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        int[] arr = new int[n];
+        
+        int[] arr = new int[100];
         int cnt = 0;
         int max = -999;
         int min = 999;
@@ -21,7 +21,7 @@ public class Main {
             if(arr[cnt] >= max){
                 max = arr[cnt];
             }
-            
+
             cnt++;
         }
         System.out.print(max+" "+min);
