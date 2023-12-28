@@ -12,12 +12,12 @@ public class Main {
             arr[i] = sc.nextInt();
         }
         int max = arr[0];
-        int min = arr[0];
+        int min = 1000;
         for(int i=0; i<10; i++){
             if(arr[i] < 500 && arr[i]>=max){
                 max = arr[i];
             }
-            if(arr[i]>500 && arr[i]<=min){
+            else if(arr[i]>500 && arr[i]<=min){
                 min = arr[i];
             }
         }
