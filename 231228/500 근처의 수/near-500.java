@@ -12,16 +12,16 @@ public class Main {
             arr[i] = sc.nextInt();
         }
         int max = arr[0];
-        int max2 = arr[0];
+        int min = arr[0];
         for(int i=0; i<10; i++){
             if(arr[i] < 500 && arr[i]>=max){
                 max = arr[i];
             }
             if(arr[i]>500 && arr[i]>=max){
-                max2 = arr[i];
+                min = arr[i];
             }
         }
-        System.out.println(max+" "+max2);
+        System.out.println(max+" "+min);
 
     }
 }
