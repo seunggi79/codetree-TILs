@@ -17,7 +17,7 @@ public class Main {
             if(arr[i] < 500 && arr[i]>=max){
                 max = arr[i];
             }
-            if(arr[i]>500 && arr[i]>=max){
+            if(arr[i]>500 && arr[i]<=max){
                 min = arr[i];
             }
         }
