@@ -13,12 +13,8 @@ public class Main {
         int min = arr[0];
         for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
-            if(arr[i] > max){
-                maxIdex=i; // 2
-                max = arr[i]; // 5
-            }
+
         }
-        System.out.print(maxIdex+1+" ");
         // 최대값 찾기
         // 최대값 찾은 후 인덱스를 저장
 
