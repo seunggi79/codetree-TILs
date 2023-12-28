@@ -7,13 +7,9 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int[] arr = new int[n];
-        int cnt = 0;
-        int max = arr[0];
-        int maxIdex = 0;
-        int min = arr[0];
+
         for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
-
         }
         // 최대값 찾기
         // 최대값 찾은 후 인덱스를 저장
@@ -23,10 +19,9 @@ public class Main {
         // 인덱스가 0이면 그만 아니면 반복
         while(true){
 
-            max = arr[0];
-            int k = maxIdex;
-            maxIdex = 0;
-            for(int i = 0; i<k; i++){
+            int max = arr[0]; // 3
+            int maxIdex = 0;
+            for(int i = 0; i<n; i++){
                 if(arr[i]>max){
                     max = arr[i]; // 3
                     maxIdex = i; // 0
@@ -37,7 +32,7 @@ public class Main {
             if(maxIdex+1 == 1){
                 break;
             }
-
+            n = maxIdex;
         }
 
     }
