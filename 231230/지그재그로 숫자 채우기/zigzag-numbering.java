@@ -15,10 +15,16 @@ public class Main {
                 cnt++;
             }
         }
-        for(int i =0; i<n; i++) {
-            for (int j = 0; j <m; j++) {
-                System.out.print(arr[j][i]);
-                
+        for(int i =0; i<m; i++) {
+            for (int j = 0; j <n; j++) {
+                if(j % 2 ==0){
+                    System.out.print(arr[j][i]+" ");
+
+                }
+                else{
+                    System.out.print(arr[j][3-i]+" ");
+                }
+
             }
             System.out.println();
         }
