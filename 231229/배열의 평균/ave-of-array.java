@@ -13,7 +13,7 @@ public class Main {
                 n[i][j] = sc.nextInt();
                 sum+=n[i][j];
             }
-            System.out.print((double) sum/4 + " ");
+            System.out.printf("%.1f ",(double) sum/4);
         }
         System.out.println();
         for(int j =0; j<4; j++){
@@ -21,7 +21,7 @@ public class Main {
             for(int i =0; i<2; i++){
                 sum+=n[i][j];
             }
-            System.out.print((double) sum/2 + " ");
+            System.out.printf("%.1f ",(double) sum/2);
         }
         System.out.println();
         int sum = 0;
@@ -30,7 +30,7 @@ public class Main {
                 sum+=n[i][j];
             }
         }
-        System.out.print((double) sum/8 + " ");
+        System.out.printf("%.1f ",(double) sum/8);
 
     }
 }
