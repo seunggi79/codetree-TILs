@@ -7,14 +7,17 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int cnt = 1;
-
+        int[][] arr = new int[n][n];
         for(int i =0; i<n; i++) {
             for (int j = 0; j <n; j++) {
-                System.out.print(cnt+" ");
+                arr[i][j] = cnt;
                 cnt++;
             }
-            System.out.println();
         }
-
+        for(int i =0; i<n; i++) {
+            for (int j = 0; j <n; j++) {
+                System.out.print(arr[j][i]+" ");
+            }
+        }
     }
 }
