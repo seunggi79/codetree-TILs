@@ -5,7 +5,7 @@ public class Main {
 
         // 변수 선언 및 입력
         Scanner sc = new Scanner(System.in);
-        String str = "LeeBrosCode";
+        String str = sc.next();
         System.out.println(str);
         System.out.println(str);
     }
