@@ -5,7 +5,6 @@ public class Main {
 
         // 변수 선언 및 입력
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
         int[][] arr = new int[100][100];
         
         for(int i =0; i<5; i++){
@@ -21,7 +20,7 @@ public class Main {
         }
 
         for(int i=0; i<n; i++){
-            for(int j =0; j<n; j++){
+            for(int j =0; j<5; j++){
                 System.out.print(arr[i][j] + " ");
             }
             System.out.println();
