@@ -7,6 +7,6 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         String str = "LeeBrosCode";
         System.out.println(str);
-
+System.out.println(str);
     }
 }
