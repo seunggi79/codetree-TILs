@@ -15,6 +15,7 @@ public class Main {
             for(int j =0; j<str[i].length(); j++){
                 if (str[i].charAt(0) == 'a')
                     cnt2 +=1;
+                    break;
             }
         }
         System.out.println(cnt+ " "+cnt2 );
