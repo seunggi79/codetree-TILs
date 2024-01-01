@@ -12,7 +12,7 @@ public class Main {
         for(int i =0; i<n; i++){
             str[i] = sc.next();
             cnt += str[i].length();
-            for(int j =0; j<str.length; j++){
+            for(int j =0; j<str[i].length(); j++){
                 if (str[i].charAt(j) == 'a')
                     cnt2 +=1;
             }
