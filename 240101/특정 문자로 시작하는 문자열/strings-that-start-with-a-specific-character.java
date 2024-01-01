@@ -22,7 +22,7 @@ public class Main {
             }
 
         }
-        System.out.println(cnt + " " + (float)(cnt2/cnt));
+        System.out.printf(cnt + " %.2f" ,(float)(cnt2/cnt));
 
     }
 }
