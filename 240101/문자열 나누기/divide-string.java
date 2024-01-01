@@ -6,6 +6,7 @@ public class Main {
         // 변수 선언 및 입력
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
+        int cnt = 0;
         String str2 = "";
         for(int i=0; i<n; i++){
             String str = sc.next();
@@ -13,11 +14,13 @@ public class Main {
 
 
         }
-        for(int i = 0; i<str2.length(); i++){
-            for(int j =0; j<5; j++){
-                System.out.println(str2.charAt(i));
+        for(int i = 1; i<str2.length()+1; i++){
+            System.out.print(str2.charAt(i-1));
+            if(i % 5 == 0) {
+                System.out.println();
             }
-            System.out.println();
+
+
         }
 
     }
