@@ -9,7 +9,7 @@ public class Main {
         int cnt2 = 0;
         int n = sc.nextInt();
 
-        String[] str = new String[n];
+        String[] str = new String[20];
         for(int i =0; i<n; i++){
             str[i] = sc.next();
 
