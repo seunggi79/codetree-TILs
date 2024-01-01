@@ -16,9 +16,11 @@ public class Main {
         char s = sc.next().charAt(0);
 
         for(int i = 0; i<10; i++){
-            if(str[i].charAt(str[i].length()-1) == s)
+            if(str[i].charAt(str[i].length()-1) == s){
                 System.out.println(str[i]);
                 cnt += 1;
+            }
+            
         }
 
         if(cnt == 0){
