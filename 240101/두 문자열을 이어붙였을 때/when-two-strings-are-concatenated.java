@@ -8,28 +8,25 @@ public class Main {
 
         String str1 = sc.next();
         String str2 = sc.next();
+        String strA = str1 + str2;
+        String strB = str2 + str1;
         boolean k = true;
-        if(str1.length() == str2.length()){
-            for(int i=0; i<str1.length(); i++){
-                if(str1.charAt(i) == str2.charAt(i)){
-                    continue;
-                }
-                else{
-                    k = false;
-                    break;
-                }
-            }
-            if(k){
-                System.out.println(true);
+        for(int i = 0; i<strA.length(); i++){
+            if(strA.charAt(i) == strB.charAt(i)){
+                continue;
             }
             else{
-                System.out.println(false);
+                k = false;
+                break;
             }
-            
         }
-        else{
+
+        if(k){
+            System.out.println(true);
+        }else{
             System.out.println(false);
         }
-        
+
+
     }
 }
