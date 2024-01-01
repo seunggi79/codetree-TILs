@@ -11,7 +11,7 @@ public class Main {
         char s = sc.next().charAt(0);
         
         for(int i =0; i<5; i++){
-            if ( s == str1[i].charAt(3)||s == str1[i].charAt(4)){
+            if ( s == str1[i].charAt(2)||s == str1[i].charAt(3)){
                 System.out.println(str1[i]);
                 cnt += 1;
             }
