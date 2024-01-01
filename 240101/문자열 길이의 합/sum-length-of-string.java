@@ -13,13 +13,11 @@ public class Main {
             str[i] = sc.next();
             cnt += str[i].length();
             for(int j =0; j<str[i].length(); j++){
-                if (str[i].charAt(j) == 'a')
+                if (str[i].charAt(0) == 'a')
                     cnt2 +=1;
             }
         }
         System.out.println(cnt+ " "+cnt2 );
-
-
 
     }
 }
