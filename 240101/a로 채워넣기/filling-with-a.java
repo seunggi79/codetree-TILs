@@ -8,6 +8,7 @@ public class Main {
         String str1 = sc.next();
         char[] arr = str1.toCharArray();
         arr[1] = 'a';
+        arr[str1.length()-1];
         str1 = String.valueOf(arr);
         System.out.println(str1);
     }
