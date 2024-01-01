@@ -12,7 +12,7 @@ public class Main {
             str1[i] = sc.next();
             
         }
-        for(int i =3; i<=0; i--){
+        for(int i =3; i>=0; i--){
             System.out.println(str1[i]);
 
         }
