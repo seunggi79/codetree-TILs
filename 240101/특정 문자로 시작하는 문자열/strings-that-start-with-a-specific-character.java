@@ -8,7 +8,7 @@ public class Main {
         int cnt = 0;
         int cnt2 = 0;
         int n = sc.nextInt();
-        
+
         String[] str = new String[n];
         for(int i =0; i<n; i++){
             str[i] = sc.next();
@@ -20,9 +20,9 @@ public class Main {
                 cnt++;
                 cnt2 += str[i].length();
             }
-            
+
         }
-        System.out.println(cnt + " " + cnt2/cnt);
+        System.out.println(cnt + " " + (float)(cnt2/cnt));
 
     }
 }
