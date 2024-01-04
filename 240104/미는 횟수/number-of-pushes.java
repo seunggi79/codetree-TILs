@@ -11,15 +11,23 @@ public class Main {
             System.exit(0);
         }
 
+        String a = str;
+        String[] b = new String[str.length()];
         int cnt =0;
         while(true){
+            b[cnt] = str;
             str = str.substring(str.length()-1,str.length())+str.substring(0,str.length()-1);
             cnt++;
-            if(str.equals(str2)){
+
+            if(str.equals(a)){
                 break;
             }
         }
-        System.out.println(cnt);
+        for(int i=0;i<cnt; i++){
+            if(b[i].equals(str2)){
+                System.out.println(i);
+            }
+        }
 
     }
 }
