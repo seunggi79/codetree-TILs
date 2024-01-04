@@ -19,7 +19,7 @@ public class Main {
                 cnt2++;
             }
         }
-        if(cnt2 == 6){
+        if(cnt2 == str.length()){
             System.out.println(-1);
         }
         else
