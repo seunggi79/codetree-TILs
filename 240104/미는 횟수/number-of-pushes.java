@@ -10,7 +10,7 @@ public class Main {
         while(true){
             str = str.substring(str.length()-1,str.length())+str.substring(0,str.length()-1);
             cnt++;
-            if(str.compareTo(str2) == 0){
+            if(str.equals(str2)){
                 break;
             }
         }
