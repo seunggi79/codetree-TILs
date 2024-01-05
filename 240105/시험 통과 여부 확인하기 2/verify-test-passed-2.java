@@ -9,7 +9,7 @@ public class Main {
         int cnt = 0;
         for(int i=0; i<n; i++){
             int sum = 0;
-            for(int j=0; j<n; j++){
+            for(int j=0; j<4; j++){
                 arr[j] = sc.nextInt();
                 sum += arr[j];
 
