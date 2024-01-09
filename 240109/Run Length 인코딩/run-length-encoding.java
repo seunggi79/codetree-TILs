@@ -5,6 +5,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         String A = sc.next();
         int len = A.length();
+        System.out.println(len);
         char c = A.charAt(0);
         int cnt = 0;
         for(int i =0; i<len; i++){
