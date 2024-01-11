@@ -10,7 +10,7 @@ public class Main {
     public static void print(int a)
     {
         int sum =0;
-        for(int i =1; i<=100; i++){
+        for(int i =1; i<=a; i++){
             sum += i;
         }
 
