@@ -12,11 +12,12 @@ public class Main {
     {
 
         int sum =0;
-
         for(int i = a; i<=b; i++){
             boolean k = true;
+            if(i == 1){
+                k = false;
+            }
            for(int j =2; j<a; j++){
-
                if(i % j == 0){
                    k = false;
                }
