@@ -17,7 +17,7 @@ public class Main {
             if(i == 1){
                 k = false;
             }
-           for(int j =2; j<a; j++){
+           for(int j =2; j<i; j++){
                if(i % j == 0){
                    k = false;
                }
