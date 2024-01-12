@@ -27,8 +27,26 @@ public class Main {
             }
 
         }
+        else if (a < 8 && a % 2 ==0){
+            if (b<=30){
+                return "Yes";
+            }
+            else{
+                return "No";
+            }
+
+        }
         else if (a >= 8 && a % 2 ==0){
             if (b<=31){
+                return "Yes";
+            }
+            else{
+                return "No";
+            }
+
+        }
+        else if (a >= 8 && a % 2 !=0){
+            if (b<=30){
                 return "Yes";
             }
             else{
