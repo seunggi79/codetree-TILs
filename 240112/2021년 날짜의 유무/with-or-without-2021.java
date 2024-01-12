@@ -36,7 +36,7 @@ public class Main {
             }
 
         }
-        else if (a >= 8 && a % 2 ==0){
+        else if (a<13 && a >= 8 && a % 2 ==0){
             if (b<=31){
                 return "Yes";
             }
@@ -45,7 +45,7 @@ public class Main {
             }
 
         }
-        else if (a >= 8 && a % 2 !=0){
+        else if (a<13 && a >= 8 && a % 2 !=0){
             if (b<=30){
                 return "Yes";
             }
