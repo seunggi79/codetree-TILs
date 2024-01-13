@@ -32,6 +32,7 @@ public class Main {
         int n = sc.nextInt();
 
         print2(n);
+        System.out.println();
         print(n);
 
 
