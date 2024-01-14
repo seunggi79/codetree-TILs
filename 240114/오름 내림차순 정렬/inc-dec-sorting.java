@@ -1,4 +1,5 @@
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.Scanner;
 
 public class Main {
@@ -12,14 +13,16 @@ public class Main {
         for(int i =0; i<n; i++){
             arr[i] = sc.nextInt();
         }
+
+        Arrays.sort(arr);
         for(int i =0; i<n; i++){
             System.out.print(arr[i]+" ");
         }
-        
-        Arrays.sort(arr);
+        Integer[] arr2 = Arrays.stream(arr).boxed().toArray(Integer[]::new);
+        Arrays.sort(arr2, Collections.reverseOrder());
         System.out.println();
         for(int i =0; i<n; i++){
-            System.out.print(arr[i]+" ");
+            System.out.print(arr2[i]+" ");
         }
 
     }
