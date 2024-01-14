@@ -12,7 +12,7 @@ public class Main {
 
         char[] arr = str.toCharArray();
         Arrays.sort(arr);
-        String str2 = new String(arr);
+        String str2 = String.valueOf(arr);
         System.out.println(str2);
 
     }
