@@ -15,16 +15,19 @@ public class Main {
         Arrays.sort(arr);
         Arrays.sort(arr2);
         boolean k =true;
-        for(int i=0; i<str.length(); i++){
-            if(arr[i] != arr2[i]){
-                k = false;
-            }
-        }
-        
         if(str.length() != str2.length()){
             System.out.println("No");
+            System.exit(0);
+        }else{
+            for(int i=0; i<str.length(); i++){
+                if(arr[i] != arr2[i]){
+                    k = false;
+                }
+            }
         }
-        else if(k){
+
+
+        if(k){
             System.out.println("Yes");
         }else{
             System.out.println("No");
