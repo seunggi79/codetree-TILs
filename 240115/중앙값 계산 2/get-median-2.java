@@ -9,10 +9,15 @@ public class Main {
         int[] arr = new int[n];
         for(int i=0; i<n; i++){
             arr[i] = sc.nextInt();
-            
+
         }
-        Arrays.sort(arr);
-        System.out.println(arr[n/2]);
+
+        for(int i =0; i<n; i++){
+            if(i % 2 == 0){
+                Arrays.sort(arr);
+                System.out.print(arr[i/2]+" ");
+            }
+        }
 
     }
 
