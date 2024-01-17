@@ -4,18 +4,14 @@ import java.util.Comparator;
 import java.util.Scanner;
 
 class Print implements Comparable<Print>{
-
-
     int x;
     int y;
     int num;
 
     public Print( int x, int y, int num){
-
         this.x = x;
         this.y = y;
         this.num = num;
-
     }
 
     @Override
@@ -33,12 +29,10 @@ public class Main {
 
             int x = sc.nextInt();
             int y = sc.nextInt();
-
             print[i] = new Print(x, y, i+1);
-
         }
 
-        Arrays.sort(print);
+        Arrays.sort(print, 0, n);
 
         for(int i=0; i<n; i++){
             System.out.println(print[i].num);
