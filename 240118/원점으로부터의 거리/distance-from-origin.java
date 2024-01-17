@@ -3,7 +3,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.Scanner;
 
-class Print{
+class Print implements Comparable<Print>{
 
 
     int x;
@@ -18,6 +18,10 @@ class Print{
 
     }
 
+    @Override
+    public int compareTo(Print o) {
+        return Math.abs(this.x + this.y)- Math.abs(o.x + o.y);
+    }
 }
 public class Main {
     public static void main(String[] args) {
@@ -34,22 +38,11 @@ public class Main {
 
         }
 
-        Arrays.sort(print, new Comparator<Print>() {
-            @Override
-            public int compare(Print o1, Print o2) {
-                return Math.abs(o1.x + o1.y) - Math.abs(o2.x + o2.y);
-            }
-        });
-
+        Arrays.sort(print);
 
         for(int i=0; i<n; i++){
             System.out.println(print[i].num);
         }
-
-
-
-
-
 
     }
 
