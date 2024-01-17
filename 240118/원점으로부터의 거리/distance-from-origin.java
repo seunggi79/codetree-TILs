@@ -37,7 +37,7 @@ public class Main {
         Arrays.sort(print, new Comparator<Print>() {
             @Override
             public int compare(Print o1, Print o2) {
-                return ((o1.x * o1.x)+(o1.y * o1.y)) - ((o2.x * o2.x)+(o2.y * o2.y));
+                return Math.abs(o1.x + o1.y) - Math.abs(o2.x + o2.y);
             }
         });
 
