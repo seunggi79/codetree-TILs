@@ -27,7 +27,7 @@ public class Main {
             else{
                 // 부호가 다른 경우
                 if(i != 0)
-                    cnt = 1;
+                    cnt = 0;
                 cnt2 += 1;
             }
 
