@@ -13,8 +13,8 @@ public class Main {
         int cnt =0;
 
         while(true){
-            if(n<2){
-                num[cnt] = n;
+            if(n<m){
+                num[cnt++] = n;
                 break;
             }
             num[cnt] = n%m;
@@ -22,7 +22,7 @@ public class Main {
             n/=m;
         }
 
-        for(int i =cnt; i>=0; i--){
+        for(int i =cnt-1; i>=0; i--){
             System.out.print(num[i]);
         }
 
