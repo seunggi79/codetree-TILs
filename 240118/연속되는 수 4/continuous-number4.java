@@ -18,7 +18,7 @@ public class Main {
         int ans =0, cnt = 0;
         for(int i=0; i<n; i++){
             // 부호가 같으면 +1
-            if(i >= 1 && arr[i] >= arr[i -1])
+            if(i >= 1 && arr[i] > arr[i -1])
                 cnt++;
             else // 부호가 다른 경우
                 cnt = 1;
