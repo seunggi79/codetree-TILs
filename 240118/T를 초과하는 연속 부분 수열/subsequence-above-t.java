@@ -20,13 +20,14 @@ public class Main {
         int cnt2 =0;
         for(int i=0; i<n; i++){
             // 부호가 같으면 +1
-            if(i >= 1 && arr[i] > m)
+
+
+            if(arr[i] > m)
                 cnt++;
-            else if (i == 0 && arr[i] < m) {
-                cnt = 0;
-            } else{
+            else{
                 // 부호가 다른 경우
-                cnt = 1;
+                if(i != 0)
+                    cnt = 1;
                 cnt2 += 1;
             }
 
