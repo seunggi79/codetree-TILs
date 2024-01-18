@@ -17,11 +17,11 @@ public class Main {
             System.out.println(-1);
             System.exit(0);
         }
-        if(11 > b){
+        if(11 > b && 11==a){
             System.out.println(-1);
             System.exit(0);
         }
-        if(11 > c){
+        if(11 > c&&a==11&&b==11){
             System.out.println(-1);
             System.exit(0);
         }
