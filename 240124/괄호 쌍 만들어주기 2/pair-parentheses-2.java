@@ -11,21 +11,21 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         String str = sc.next();
         boolean k;
-        int cnt =0;
-        int cnt2 = 0;
+
+        int cnt = 0;
         for(int i = 0; i<str.length()-1; i++){
             if(str.charAt(i) == '(' && str.charAt(i+1) == '('){
-                cnt += 1;
-            }
-
-            if(cnt > 0){
-                if(str.charAt(i) == ')' && str.charAt(i+1) == ')'){
-                    cnt2++;
+                for(int j =i+2; j<str.length()-1; j++){
+                    if(str.charAt(j) == ')' && str.charAt(j+1) == ')'){
+                        cnt++;
+                    }
                 }
             }
+
+
         }
 
-        System.out.println(cnt*cnt2);
+        System.out.println(cnt);
     }
 
 }
