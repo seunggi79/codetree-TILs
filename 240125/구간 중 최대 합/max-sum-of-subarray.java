@@ -16,8 +16,10 @@ public class Main {
         for(int i=0; i<n; i++)
             arr[i] = sc.nextInt();
 
+
+
         int ans = 0;
-        for(int i=0; i<n-m; i++){
+        for(int i=0; i<=n-m; i++){
             int max = 0;
             for(int j=i; j <m + i; j++){
                 max += arr[j];
