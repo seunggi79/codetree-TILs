@@ -16,11 +16,11 @@ public class Main {
 
         // 각 자리 자물쇠의 차이가 2이하면 자물쇠는 열림
         int cnt = 0;
-        for(int i =a+2; i<6; i++){
+        for(int i =a+3; i<=6; i++){
+            
+            for(int j=b+3; j<=6; j++){
 
-            for(int j=b+2; j<6; j++){
-
-                for(int k=c+2; k<6; k++){
+                for(int k=c+3; k<=6; k++){
                     cnt++;
 
                 }
