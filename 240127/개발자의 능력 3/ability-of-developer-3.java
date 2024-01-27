@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class Main {
     public static int[] arr = new int[6];
-    public static int INT_MIN = Integer.MIN_VALUE;
+    public static int INT_MAX = Integer.MAX_VALUE;
     public static int getDiff(int i, int j, int k){
         int sum1 = arr[i] +arr[j] +arr[k];
         int sum2 = 0;
@@ -30,7 +30,7 @@ public class Main {
             arr[i] = sc.nextInt();
         }
 
-        int min = INT_MIN;
+        int min = INT_MAX;
         for(int i=0; i<6; i++){
             for(int j =i+1; j<6; j++){
                 for(int k=j+1; k<6; k++){
