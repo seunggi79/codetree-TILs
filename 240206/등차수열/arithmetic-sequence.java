@@ -22,7 +22,7 @@ public class Main {
         for(int i=0; i<n; i++){
             for(int k = 1; k<= 100; k++){
                 for(int j =i+1; j<n; j++){
-                    if(a[j] - k == k - a[i]){
+                    if(a[j] + a[i] == 2*k){
                         cnt++;
                     }
                 }
